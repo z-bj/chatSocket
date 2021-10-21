@@ -46,15 +46,15 @@
   <body>
     <script src="/socket.io/socket.io.js"></script>
     <script>
-      let socket = io();
+      const socket = io();
 
-      let send = () => {
-        let text = document.getElementById("m").value;
+      const send = () => {
+        const text = document.getElementById("m").value;
         socket.emit("chat message", text);
       };
 
-      let receive = (msg) => {
-        let li = document.createElement("li");
+      const receive = (msg) => {
+        const li = document.createElement("li");
         li.innerText = msg;
         document.getElementById("messages").appendChild(li);
       };
