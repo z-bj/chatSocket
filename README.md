@@ -2,8 +2,6 @@
 
 
 This is a simple chat application built using Socket.IO and Express. It allows users to connect to a server and chat with each other in real-time.
-### [Link](https://z-bj.github.io/chatSocket)
-
 
 ## Features
 
@@ -31,6 +29,8 @@ npm install
 ```
 
 ## Usage
+
+Client-side [link](https://z-bj.github.io/chatSocket)
 
 Start the server using the following command:
 
