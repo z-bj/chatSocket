@@ -1,5 +1,6 @@
 # Socket.IO Chat App
 
+![gif-banner](https://github.com/z-bj/chatSocket/blob/master/1_lIAbL5eD-AI_jkwG3Ss8aQ.gif)
 
 This is a simple chat application built using Socket.IO and Express. It allows users to connect to a server and chat with each other in real-time.
 
