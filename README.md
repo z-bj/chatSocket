@@ -82,14 +82,9 @@ http.listen(3000, function () {
 ```
 
 
-
-
-
-The server uses Express to serve the `index.html` file and Socket.IO to handle incoming connections and messages. When a user connects to the server, a `connection` event is fired and a callback function is called, which logs a message to the console. Similarly, when a user disconnects, a `disconnect` event is fired and a message is logged to the console. Finally, when a user sends a chat message, a `chat message` event is fired and the message is broadcast to all connected users.
-
 ## How It Works
 
-The app uses Socket.io to establish a connection between the client and server. When a user connects, a message is logged to the console. When a user sends a message, it is logged to the console and broadcasted to all connected users.
+The server uses Express to serve the `index.html` file and Socket.IO to handle incoming connections and messages. When a user connects to the server, a `connection` event is fired and a callback function is called, which logs a message to the console. Similarly, when a user disconnects, a `disconnect` event is fired and a message is logged to the console. Finally, when a user sends a chat message, a `chat message` event is fired and the message is broadcast to all connected users.
 
 
 
