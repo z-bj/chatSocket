@@ -7,6 +7,7 @@ This is a simple chat application built using Socket.IO and Express. It allows u
 
 ![alt text](https://i.ibb.co/fv11Yhh/2021-10-21-09-53-51-server-js-socket-WSL-Ubuntu-20-04-Visual-Studio-Code.jpg)
 
+<br>
 
 -   Real-time communication between multiple clients
 -   Simple and intuitive user interface
@@ -17,6 +18,13 @@ This is a simple chat application built using Socket.IO and Express. It allows u
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+## How It Works
+
+The server uses Express to serve the `index.html` file and Socket.IO to handle incoming connections and messages. When a user connects to the server, a `connection` event is fired and a callback function is called, which logs a message to the console. Similarly, when a user disconnects, a `disconnect` event is fired and a message is logged to the console. Finally, when a user sends a chat message, a `chat message` event is fired and the message is broadcast to all connected users.
+
+
 
 ## Installation
 
@@ -80,11 +88,6 @@ http.listen(3000, function () {
 });
 
 ```
-
-
-## How It Works
-
-The server uses Express to serve the `index.html` file and Socket.IO to handle incoming connections and messages. When a user connects to the server, a `connection` event is fired and a callback function is called, which logs a message to the console. Similarly, when a user disconnects, a `disconnect` event is fired and a message is logged to the console. Finally, when a user sends a chat message, a `chat message` event is fired and the message is broadcast to all connected users.
 
 
 
